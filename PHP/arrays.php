@@ -8,8 +8,7 @@
 
     function escreveArray($nomeArray){
         for($i = 0;$i < (count($nomeArray));$i++){
-            echo $nomeArray[$i];
-            echo "<br>";
+            echo "$nomeArray[$i]<br>";
         }
     }
     escreveArray($herois);
